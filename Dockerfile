@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS lbase
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS lbase
 
 WORKDIR /app
 RUN mkdir -p /app/log
@@ -12,7 +12,7 @@ ENV ASPNETCORE_URLS=http://+:8080
 #USER appuser
 
 #--------------------------------------------------------------------------------------
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS lbuild
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS lbuild
 
 WORKDIR /src
 COPY ["webservices/webservices.csproj", "webservices/"]
