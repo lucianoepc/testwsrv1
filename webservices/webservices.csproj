@@ -4,8 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>PoC.EasySrvs.WebServices</RootNamespace>
-    <AssemblyName>PoC.EasySrvs.WebServices</AssemblyName>
+    <RootNamespace>PoC.TestWSrv1.WebServices</RootNamespace>
+    <AssemblyName>PoC.TestWSrv1.WebServices</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
